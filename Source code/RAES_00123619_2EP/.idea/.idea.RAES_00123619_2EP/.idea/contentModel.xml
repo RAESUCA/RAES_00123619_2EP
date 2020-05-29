@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ulma_\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ulma_\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_RAES_00123619_2EP.-944336595.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ulma_\RiderProjects\RAES_00123619_2EP" t="IncludeRecursive">
+      <e p="AddBssns.cs" t="Include" />
+      <e p="AddBssns.Designer.cs" t="Include" />
+      <e p="AddBssns.resx" t="Include" />
+      <e p="AddDirect.cs" t="Include" />
+      <e p="AddDirect.Designer.cs" t="Include" />
+      <e p="AddDirect.resx" t="Include" />
+      <e p="AddPrdct.cs" t="Include" />
+      <e p="AddPrdct.Designer.cs" t="Include" />
+      <e p="AddPrdct.resx" t="Include" />
+      <e p="Administrator.cs" t="Include" />
+      <e p="Administrator.Designer.cs" t="Include" />
+      <e p="Administrator.resx" t="Include" />
+      <e p="AdminMenu.cs" t="Include" />
+      <e p="AdminMenu.Designer.cs" t="Include" />
+      <e p="AdminMenu.resx" t="Include" />
+      <e p="App.config" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="BussinesMenu.cs" t="Include" />
+      <e p="BussinesMenu.Designer.cs" t="Include" />
+      <e p="BussinesMenu.resx" t="Include" />
+      <e p="ConnectionDB.cs" t="Include" />
+      <e p="Consult.cs" t="Include" />
+      <e p="Consult.Designer.cs" t="Include" />
+      <e p="Consult.resx" t="Include" />
+      <e p="create.cs" t="Include" />
+      <e p="create.Designer.cs" t="Include" />
+      <e p="create.resx" t="Include" />
+      <e p="delet.cs" t="Include" />
+      <e p="delet.Designer.cs" t="Include" />
+      <e p="delet.resx" t="Include" />
+      <e p="DeletDirect.cs" t="Include" />
+      <e p="DeletDirect.Designer.cs" t="Include" />
+      <e p="DeletDirect.resx" t="Include" />
+      <e p="DelPrdct.cs" t="Include" />
+      <e p="DelPrdct.Designer.cs" t="Include" />
+      <e p="DelPrdct.resx" t="Include" />
+      <e p="DelProdct.cs" t="Include" />
+      <e p="DelProdct.Designer.cs" t="Include" />
+      <e p="DelProdct.resx" t="Include" />
+      <e p="Direct.cs" t="Include" />
+      <e p="Direct.Designer.cs" t="Include" />
+      <e p="Direct.resx" t="Include" />
+      <e p="EditDirect.cs" t="Include" />
+      <e p="EditDirect.Designer.cs" t="Include" />
+      <e p="EditDirect.resx" t="Include" />
+      <e p="Form1.cs" t="Include" />
+      <e p="Form1.Designer.cs" t="Include" />
+      <e p="Form1.resx" t="Include" />
+      <e p="login.cs" t="Include" />
+      <e p="login.Designer.cs" t="Include" />
+      <e p="login.resx" t="Include" />
+      <e p="NormalMenu.cs" t="Include" />
+      <e p="NormalMenu.Designer.cs" t="Include" />
+      <e p="NormalMenu.resx" t="Include" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="PassChng.cs" t="Include" />
+      <e p="PassChng.Designer.cs" t="Include" />
+      <e p="PassChng.resx" t="Include" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Resources.Designer.cs" t="Include" />
+        <e p="Resources.resx" t="Include" />
+        <e p="Settings.Designer.cs" t="Include" />
+        <e p="Settings.settings" t="Include" />
+      </e>
+      <e p="RAES_00123619_2EP.csproj" t="IncludeRecursive" />
+      <e p="RAES_00123619_2EP.sln" t="IncludeFlat" />
+      <e p="Resources" t="Include">
+        <e p="Untitled.png" t="Include" />
+      </e>
+      <e p="RmvBssns.cs" t="Include" />
+      <e p="RmvBssns.Designer.cs" t="Include" />
+      <e p="RmvBssns.resx" t="Include" />
+    </e>
+  </component>
+</project>

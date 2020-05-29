@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{ED16C8AE-B468-4C16-87AF-BF24009C0335}</ProjectGuid>
+        <OutputType>WinExe</OutputType>
+        <RootNamespace>RAES_00123619_2EP</RootNamespace>
+        <AssemblyName>RAES_00123619_2EP</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <Deterministic>true</Deterministic>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.1.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="mscorlib" />
+        <Reference Include="Npgsql, Version=4.1.3.1, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7">
+          <HintPath>packages\Npgsql.4.1.3.1\lib\net461\Npgsql.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="RAES_00123619_2EP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>bin\Debug\RAES_00123619_2EP.exe</HintPath>
+        </Reference>
+        <Reference Include="System" />
+        <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.Core" />
+        <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.Numerics" />
+        <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.6.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>packages\System.Text.Encodings.Web.4.6.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.Text.Json, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>packages\System.Text.Json.4.6.0\lib\net461\System.Text.Json.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>packages\System.Threading.Tasks.Extensions.4.5.3\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.Xml.Linq" />
+        <Reference Include="System.Data.DataSetExtensions" />
+        <Reference Include="Microsoft.CSharp" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Deployment" />
+        <Reference Include="System.Drawing" />
+        <Reference Include="System.Net.Http" />
+        <Reference Include="System.Windows.Forms" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="AddBssns.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="AddBssns.Designer.cs">
+          <DependentUpon>AddBssns.cs</DependentUpon>
+        </Compile>
+        <Compile Include="AddDirect.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="AddDirect.Designer.cs">
+          <DependentUpon>AddDirect.cs</DependentUpon>
+        </Compile>
+        <Compile Include="AddPrdct.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="AddPrdct.Designer.cs">
+          <DependentUpon>AddPrdct.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Administrator.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="Administrator.Designer.cs">
+          <DependentUpon>Administrator.cs</DependentUpon>
+        </Compile>
+        <Compile Include="AdminMenu.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="AdminMenu.Designer.cs">
+          <DependentUpon>AdminMenu.cs</DependentUpon>
+        </Compile>
+        <Compile Include="BussinesMenu.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="BussinesMenu.Designer.cs">
+          <DependentUpon>BussinesMenu.cs</DependentUpon>
+        </Compile>
+        <Compile Include="ConnectionDB.cs" />
+        <Compile Include="Consult.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="Consult.Designer.cs">
+          <DependentUpon>Consult.cs</DependentUpon>
+        </Compile>
+        <Compile Include="create.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="create.Designer.cs">
+          <DependentUpon>create.cs</DependentUpon>
+        </Compile>
+        <Compile Include="delet.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="delet.Designer.cs">
+          <DependentUpon>delet.cs</DependentUpon>
+        </Compile>
+        <Compile Include="DeletDirect.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="DeletDirect.Designer.cs">
+          <DependentUpon>DeletDirect.cs</DependentUpon>
+        </Compile>
+        <Compile Include="DelPrdct.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="DelPrdct.Designer.cs">
+          <DependentUpon>DelPrdct.cs</DependentUpon>
+        </Compile>
+        <Compile Include="DelProdct.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="DelProdct.Designer.cs">
+          <DependentUpon>DelProdct.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Direct.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="Direct.Designer.cs">
+          <DependentUpon>Direct.cs</DependentUpon>
+        </Compile>
+        <Compile Include="EditDirect.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="EditDirect.Designer.cs">
+          <DependentUpon>EditDirect.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Form1.cs">
+            <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Form1.Designer.cs">
+            <DependentUpon>Form1.cs</DependentUpon>
+        </Compile>
+        <Compile Include="login.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="login.Designer.cs">
+          <DependentUpon>login.cs</DependentUpon>
+        </Compile>
+        <Compile Include="NormalMenu.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="NormalMenu.Designer.cs">
+          <DependentUpon>NormalMenu.cs</DependentUpon>
+        </Compile>
+        <Compile Include="PassChng.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="PassChng.Designer.cs">
+          <DependentUpon>PassChng.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Program.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="RmvBssns.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="RmvBssns.Designer.cs">
+          <DependentUpon>RmvBssns.cs</DependentUpon>
+        </Compile>
+        <EmbeddedResource Include="AddBssns.resx">
+          <DependentUpon>AddBssns.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="AddDirect.resx">
+          <DependentUpon>AddDirect.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="AddPrdct.resx">
+          <DependentUpon>AddPrdct.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Administrator.resx">
+          <DependentUpon>Administrator.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="AdminMenu.resx">
+          <DependentUpon>AdminMenu.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="BussinesMenu.resx">
+          <DependentUpon>BussinesMenu.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Consult.resx">
+          <DependentUpon>Consult.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="create.resx">
+          <DependentUpon>create.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="delet.resx">
+          <DependentUpon>delet.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="DeletDirect.resx">
+          <DependentUpon>DeletDirect.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="DelPrdct.resx">
+          <DependentUpon>DelPrdct.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="DelProdct.resx">
+          <DependentUpon>DelProdct.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Direct.resx">
+          <DependentUpon>Direct.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="EditDirect.resx">
+          <DependentUpon>EditDirect.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Form1.resx">
+          <DependentUpon>Form1.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="login.resx">
+          <DependentUpon>login.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="NormalMenu.resx">
+          <DependentUpon>NormalMenu.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="PassChng.resx">
+          <DependentUpon>PassChng.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Properties\Resources.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+            <SubType>Designer</SubType>
+        </EmbeddedResource>
+        <Compile Include="Properties\Resources.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Resources.resx</DependentUpon>
+        </Compile>
+        <EmbeddedResource Include="RmvBssns.resx">
+          <DependentUpon>RmvBssns.cs</DependentUpon>
+        </EmbeddedResource>
+        <None Include="packages.config" />
+        <None Include="Properties\Settings.settings">
+            <Generator>SettingsSingleFileGenerator</Generator>
+            <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+        </None>
+        <Compile Include="Properties\Settings.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Settings.settings</DependentUpon>
+            <DesignTimeSharedInput>True</DesignTimeSharedInput>
+        </Compile>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="App.config" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Resources\Untitled.png" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
